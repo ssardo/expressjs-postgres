@@ -18,6 +18,6 @@ app.get("/", async (req, res) => {
   res.send(`Hello, World! The time from the DB is ${rows[0].now}`);
 });
 
-app.listen(port, "0.0.0.0", function () {
-  console.log(`Example app listening at http://localhost:${port}`);
+app.listen(port, '0.0.0.0', function () {
+  console.log(`Example app listening at http://localhost:${port}...`);
 });
